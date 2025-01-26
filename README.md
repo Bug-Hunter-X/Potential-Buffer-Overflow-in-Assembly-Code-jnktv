@@ -1,0 +1,1 @@
+This repository demonstrates a potential buffer overflow vulnerability in a short assembly code snippet. The `mov eax, [ebx+ecx*4]` instruction can lead to out-of-bounds memory access if the value in the `ecx` register is not carefully checked. The solution provides a corrected version with bounds checking.
